@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
+
+nav ul li a {
+	font-family: "Ubuntu Mono", monospace;
+	font-size: 16px;
+}
+
+.logo-web img {
+	width: 56px;
+	float: left;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	font-family: "Meow Script", cursive;
+	font-size: 32px;
+}
+
+.post-date {
+	background: #f4f4f4;
+	padding: 4px;
+	margin: 3px 0;
+	display: block;
+}
+
+.post-thumb {
+	width: 100%;
+}
+
+.pagination-links {
+	margin: 30px 0;
+}
+
+.pagination-links strong {
+	padding: 8px 13px;
+	margin: 5px;
+	background: #f4f4f4;
+	border: 1px #ccc solid;
+}
+
+a.pagination-link {
+	padding: 8px 13px;
+	margin: 5px;
+	background: #f4f4f4;
+	border: 1px #ccc solid;
+}
+
+.cat-delete {
+	display: inline;
+}
