@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
 
+body {
+	background-image: url(../images/background/background.jpg) repeat;
+	min-height: 100%;
+}
+
 nav ul li a {
 	font-family: "Ubuntu Mono", monospace;
 	font-size: 16px;

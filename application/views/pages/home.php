@@ -9,15 +9,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="https://i.postimg.cc/fkQNYj7p/1.jpg" alt="bagian-depan" style="width:100%;">
+            <img src="<?php echo base_url(); ?>assets/images/home/1.jpg" alt="bagian-depan" style="width:100%;">
         </div>
 
         <div class="item">
-            <img src="https://i.postimg.cc/C5GFPQKS/2.jpg" alt="bagian-depan 2" style="width:100%;">
+            <img src="<?php echo base_url(); ?>assets/images/home/2.jpg" alt="bagian-depan 2" style="width:100%;">
         </div>
 
         <div class="item">
-            <img src="https://i.postimg.cc/cJtGkbD2/3.jpg" alt="bagian-plank" style="width:100%;">
+            <img src="<?php echo base_url(); ?>assets/images/home/3.jpg" alt="bagian-plank" style="width:100%;">
         </div>
     </div>
 

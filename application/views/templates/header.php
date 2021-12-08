@@ -17,7 +17,7 @@
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <a class="logo-web" href="#"><img src="https://i0.wp.com/www.gsjabatutulis.com/wp-content/uploads/2017/03/Logo-GSJA-bolong.png?fit=240%2C227&ssl=1" alt="Logo"></a>
+                <a class="logo-web" href="#"><img src="<?php echo base_url(); ?>assets/images/logo/Logo-GSJA-bolong.png" alt="Logo"></a>
                 <a class="navbar-brand" href="#">Pemuridan</a>
             </div>
             <ul class="nav navbar-nav">
