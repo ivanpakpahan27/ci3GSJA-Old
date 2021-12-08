@@ -2,8 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
 
 body {
-	background-image: url(../images/background/background.jpg) repeat;
-	min-height: 100%;
+	position: relative;
+}
+
+body:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	background-image: url("../images/background/background3.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-size: cover;
 }
 
 nav ul li a {
@@ -22,6 +36,10 @@ nav ul li a {
 	font-size: 32px;
 }
 
+.carousel-home {
+	border-radius: 50px;
+	overflow: hidden;
+}
 .post-date {
 	background: #f4f4f4;
 	padding: 4px;
