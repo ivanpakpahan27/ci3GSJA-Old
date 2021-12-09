@@ -46,7 +46,7 @@ class Posts extends CI_Controller
             redirect('users/login');
         }
 
-        $data['title'] = 'Create Post';
+        $data['title'] = 'Buat Post';
 
         $data['categories'] = $this->post_model->get_categories();
 

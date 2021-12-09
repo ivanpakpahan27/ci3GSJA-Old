@@ -1,5 +1,6 @@
-<h2><?= $title; ?></h2>
-
+<center>
+	<h2><?= $title; ?></h2>
+</center>
 <?php echo validation_errors(); ?>
 
 <?php echo form_open_multipart('categories/create'); ?>

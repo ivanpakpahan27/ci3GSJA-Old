@@ -35,9 +35,9 @@
                     <!-- <li><a href="<?php echo base_url(); ?>users/register">Daftar</a></li> -->
                 <?php endif; ?>
                 <?php if ($this->session->userdata('logged_in')) : ?>
-                    <li><a href="<?php echo base_url(); ?>posts/create">Buat Post</a></li>
-                    <li><a href="<?php echo base_url(); ?>categories/create">Buat Kategori</a></li>
-                    <li><a href="<?php echo base_url(); ?>users/logout">Keluar</a></li>
+                    <li><a href="<?php echo base_url(); ?>posts/create"><button>Buat Post</button></a></li>
+                    <li><a href="<?php echo base_url(); ?>categories/create"><button>Buat Kategori</button></a></li>
+                    <li><a href="<?php echo base_url(); ?>users/logout"><button>Keluar</button></a></li>
                 <?php endif; ?>
             </ul>
         </div>

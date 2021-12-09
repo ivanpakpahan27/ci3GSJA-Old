@@ -19,7 +19,7 @@ class Categories extends CI_Controller
 			redirect('users/login');
 		}
 
-		$data['title'] = 'Create Category';
+		$data['title'] = 'Buat Kategori';
 
 		$this->form_validation->set_rules('name', 'Name', 'required');
 

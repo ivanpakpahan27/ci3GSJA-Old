@@ -1,5 +1,10 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
+
+$route['gallery/index'] = 'gallery/index';
+$route['gallery/create'] = 'gallery/create';
+$route['gallery'] = 'gallery/index';
+
 
 $route['posts/index'] = 'posts/index';
 $route['posts/create'] = 'posts/create';
